@@ -4,6 +4,7 @@ namespace MigrationApp.Migrations
 {
     public partial class InitialCreate : Migration
     {
+        // コンテキストの変更を適用するメソッド
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -20,6 +21,7 @@ namespace MigrationApp.Migrations
                 });
         }
 
+        // コンテキストの変更を元に戻すメソッド
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
