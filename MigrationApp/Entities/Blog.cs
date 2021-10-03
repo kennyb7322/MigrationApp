@@ -6,7 +6,7 @@ namespace MigrationApp.Entities
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        // 以下のカラムを追加
+        // 以下のプロパティを追加
         public string Genre { get; set; }
     }
 }
